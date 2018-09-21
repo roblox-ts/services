@@ -1,0 +1,13 @@
+language: node__js
+node__js: node
+script:
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
+  - npm install -g roblox-ts
+  - rbxtsc --noInclude
+  - npm version patch -m "package.json version bump to %s [ci skip]"
+  - git push https://${GIT_TOKEN}@github.com/roblox-ts/rbx-types.git HEAD:deploy
+deploy:
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN

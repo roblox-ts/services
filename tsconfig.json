@@ -1,18 +1,15 @@
 {
 	"compilerOptions": {
-		"noImplicitAny" : true,
-		"noImplicitThis" : true,
-		"alwaysStrict" : true,
-		"strictNullChecks": true,
-		"noFallthroughCasesInSwitch": true,
-		"strict": true,
 		"outDir": "out",
 		"rootDir": "src",
 		"baseUrl": "src",
-		"downlevelIteration": true,
-		"noLib": true,
-		"types": [ "roblox-ts-types" ],
 		"module": "commonjs",
-		"declaration": true
+		"strict": true,
+		"noLib": true,
+		"downlevelIteration": true,
+		"declaration": false
+	},
+	"typeAcquisition": {
+		"enable": true
 	}
 }

@@ -6,7 +6,7 @@ script:
   - npm install -g roblox-ts
   - rbxtsc --noInclude
   - npm version patch -m "package.json version bump to %s [ci skip]"
-  - git push https://${GIT_TOKEN}@github.com/roblox-ts/rbx-types.git HEAD:deploy
+  - git push https://${GIT_TOKEN}@github.com/roblox-ts/rbx-types.git
 deploy:
   provider: npm
   email: $NPM_EMAIL

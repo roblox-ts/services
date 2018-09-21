@@ -8,6 +8,7 @@ export const DataStoreService = game.GetService("DataStoreService");
 export const Debris = game.GetService("Debris");
 export const GamePassService = game.GetService("GamePassService");
 export const GroupService = game.GetService("GroupService");
+export const GuiService = game.GetService("GuiService");
 export const HapticService = game.GetService("HapticService");
 export const HttpService = game.GetService("HttpService");
 export const InsertService = game.GetService("InsertService");

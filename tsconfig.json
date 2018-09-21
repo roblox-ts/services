@@ -7,7 +7,7 @@
 		"strict": true,
 		"noLib": true,
 		"downlevelIteration": true,
-		"declaration": false
+		"declaration": true
 	},
 	"typeAcquisition": {
 		"enable": true

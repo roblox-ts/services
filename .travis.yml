@@ -1,5 +1,6 @@
 language: node__js
-node__js: node
+node__js:
+  - "10"
 script:
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"

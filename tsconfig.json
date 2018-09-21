@@ -7,7 +7,8 @@
 		"strict": true,
 		"noLib": true,
 		"downlevelIteration": true,
-		"declaration": true
+		"declaration": true,
+		"typeRoots": ["rbx-types"]
 	},
 	"typeAcquisition": {
 		"enable": true

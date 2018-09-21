@@ -8,6 +8,6 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"rbx-types": "^1.0.23"
+		"rbx-types": "^1.0.24"
 	}
 }

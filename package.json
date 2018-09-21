@@ -1,0 +1,13 @@
+{
+	"name": "rbx-services",
+	"version": "1.0.6",
+	"description": "",
+	"main": "./out/index.lua",
+	"typings": "./out/index.d.ts",
+	"scripts": {},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"rbx-types": "^1.0.0"
+	}
+}

@@ -1,3 +1,4 @@
 src
 .luacheckrc
-roblox.d.ts
+tsconfig.json
+.travis.yml

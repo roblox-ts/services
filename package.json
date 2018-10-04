@@ -1,6 +1,6 @@
 {
 	"name": "rbx-services",
-	"version": "1.0.13",
+	"version": "1.0.14",
 	"description": "",
 	"main": "./out/init.lua",
 	"typings": "./out/index.d.ts",

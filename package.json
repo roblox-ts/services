@@ -7,7 +7,10 @@
 	"scripts": {},
 	"author": "",
 	"license": "ISC",
-	"dependencies": {
-		"rbx-types": "^1.0.27"
+	"peerDependencies": {
+		"rbx-types": "^1.0.40"
+	},
+	"devDependencies": {
+		"rbx-types": "^1.0.40"
 	}
 }

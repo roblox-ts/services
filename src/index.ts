@@ -30,6 +30,7 @@ export const ServerScriptService = game.GetService("ServerScriptService");
 export const ServerStorage = game.GetService("ServerStorage");
 export const SoundService = game.GetService("SoundService");
 export const StarterGui = game.GetService("StarterGui");
+export const StarterPack = game.GetService("StarterPack");
 export const StarterPlayer = game.GetService("StarterPlayer");
 export const Stats = game.GetService("Stats");
 export const Teams = game.GetService("Teams");

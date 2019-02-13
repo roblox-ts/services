@@ -1,10 +1,13 @@
 {
 	"compilerOptions": {
-		"rootDir": ".",
-		"module": "commonjs",
-		"strict": true,
-		"noLib": true,
+		"allowSyntheticDefaultImports": true,
 		"downlevelIteration": true,
+		"module": "commonjs",
+		"noLib": true,
+		"outDir": ".",
+		"rootDir": ".",
+		"strict": true,
+		"target": "es6",
 		"types": ["rbx-types"]
 	},
 	"typeAcquisition": {

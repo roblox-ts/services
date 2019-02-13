@@ -2,8 +2,8 @@
 	"name": "rbx-services",
 	"version": "1.0.18",
 	"description": "",
-	"main": "./out/init.lua",
-	"typings": "./out/index.d.ts",
+	"main": "init.lua",
+	"typings": "index.d.ts",
 	"scripts": {},
 	"author": "",
 	"license": "ISC",
@@ -11,6 +11,6 @@
 		"rbx-types": "^1.0.40"
 	},
 	"devDependencies": {
-		"rbx-types": "^1.0.88"
+		"rbx-types": "^1.0.130"
 	}
 }

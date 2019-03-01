@@ -28,6 +28,7 @@ export declare const ScriptContext: ScriptContext;
 export declare const Selection: Selection;
 export declare const ServerScriptService: ServerScriptService;
 export declare const ServerStorage: ServerStorage;
+export declare const SocialService: SocialService;
 export declare const SoundService: SoundService;
 export declare const StarterGui: StarterGui;
 export declare const StarterPlayer: StarterPlayer;

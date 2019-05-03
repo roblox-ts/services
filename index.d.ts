@@ -17,6 +17,7 @@ export declare const Lighting: Lighting;
 export declare const LocalizationService: LocalizationService;
 export declare const LogService: LogService;
 export declare const MarketplaceService: MarketplaceService;
+export declare const MessagingService: MessagingService;
 export declare const PathfindingService: PathfindingService;
 export declare const PhysicsService: PhysicsService;
 export declare const Players: Players;

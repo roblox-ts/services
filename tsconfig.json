@@ -1,16 +1,16 @@
 {
 	"compilerOptions": {
 		"allowSyntheticDefaultImports": true,
+		"isolatedModules": true,
 		"downlevelIteration": true,
 		"module": "commonjs",
 		"noLib": true,
-		"outDir": ".",
-		"rootDir": ".",
 		"strict": true,
 		"target": "es6",
-		"types": ["rbx-types"]
-	},
-	"typeAcquisition": {
-		"enable": true
+		"typeRoots": [ "node_modules/@rbxts" ],
+		"baseUrl": ".",
+		"declaration": false,
+		"jsx": "react",
+		"jsxFactory": "Roact.createElement"
 	}
 }

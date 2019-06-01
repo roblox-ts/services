@@ -1,5 +1,5 @@
 {
-	"name": "rbx-services",
+	"name": "@rbxts/services",
 	"version": "1.0.22",
 	"description": "",
 	"main": "init.lua",
@@ -8,9 +8,9 @@
 	"author": "",
 	"license": "ISC",
 	"peerDependencies": {
-		"rbx-types": "^1.0.40"
+		"@rbxts/types": "^1.0.40"
 	},
 	"devDependencies": {
-		"rbx-types": "^1.0.130"
+		"@rbxts/types": "^1.0.130"
 	}
 }

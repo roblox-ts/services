@@ -1,0 +1,26 @@
+name: CI
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Install NodeJS
+        uses: actions/setup-node@master
+        with:
+          node-version: 10.x
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Deploy
+        if: github.ref == 'refs/heads/master'
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "noreply@github.com"
+          npm version patch -m "package.json version bump to %s [skip ci]"
+          git push https://${{ secrets.github_token }}@github.com/roblox-ts/rbx-services.git HEAD:master
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}

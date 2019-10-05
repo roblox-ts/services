@@ -20,7 +20,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "noreply@github.com"
           npm version patch -m "package.json version bump to %s [skip ci]"
-          git push https://${{ secrets.github_token }}@github.com/roblox-ts/rbx-services.git HEAD:master
+          git push
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.npm_token }}

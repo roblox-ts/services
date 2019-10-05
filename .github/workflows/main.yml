@@ -4,7 +4,10 @@ on: [push]
 
 jobs:
   deploy:
+    if: contains(github.event.commits[0].message, '[skip ci]') == false
+
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@master
 
@@ -20,8 +23,8 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "noreply@github.com"
           npm version patch -m "package.json version bump to %s [skip ci]"
-          git push https://${GITHUB_TOKEN}@github.com/roblox-ts/rbx-services.git HEAD:master
+          git push https://${GIT_TOKEN}@github.com/roblox-ts/rbx-services.git HEAD:master
           npm publish
         env:
-          GITHUB_TOKEN: ${{ secrets.github_token }}
+          GIT_TOKEN: ${{ secrets.git_token }}
           NODE_AUTH_TOKEN: ${{ secrets.npm_token }}

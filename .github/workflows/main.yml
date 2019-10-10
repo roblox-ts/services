@@ -1,10 +1,14 @@
 name: CI
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   deploy:
-    if: contains(github.event.commits[0].message, '[skip ci]') == false
+    if: github.ref == 'refs/heads/master' &&
+        contains(github.event.commits[0].message, '[skip ci]') == false
 
     runs-on: ubuntu-latest
 
@@ -18,13 +22,11 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Deploy
-        if: github.ref == 'refs/heads/master'
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "noreply@github.com"
           npm version patch -m "package.json version bump to %s [skip ci]"
-          git push https://${GIT_TOKEN}@github.com/roblox-ts/services.git HEAD:master
+          git push https://osyrisrblx:${{ secrets.github_token }}@github.com/roblox-ts/services.git HEAD:master
           npm publish
         env:
-          GIT_TOKEN: ${{ secrets.git_token }}
           NODE_AUTH_TOKEN: ${{ secrets.npm_token }}

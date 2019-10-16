@@ -1,16 +1,23 @@
 {
-	"name": "@rbxts/services",
-	"version": "1.0.28",
+	"name": "@roblox-ts/services",
+	"version": "1.0.0",
 	"description": "",
 	"main": "init.lua",
 	"typings": "index.d.ts",
 	"scripts": {},
 	"author": "",
 	"license": "ISC",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"peerDependencies": {
 		"@rbxts/types": "^1.0.40"
 	},
 	"devDependencies": {
 		"@rbxts/types": "^1.0.130"
-	}
+	},
+	"files": [
+		"init.lua",
+		"index.d.ts"
+	]
 }

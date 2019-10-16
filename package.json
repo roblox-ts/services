@@ -1,5 +1,5 @@
 {
-	"name": "@roblox-ts/services",
+	"name": "@rbxts/services",
 	"version": "1.0.0",
 	"description": "",
 	"main": "init.lua",
@@ -7,9 +7,6 @@
 	"scripts": {},
 	"author": "",
 	"license": "ISC",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/"
-	},
 	"peerDependencies": {
 		"@rbxts/types": "^1.0.40"
 	},

@@ -22,7 +22,6 @@ export declare const MessagingService: MessagingService;
 export declare const PathfindingService: PathfindingService;
 export declare const PhysicsService: PhysicsService;
 export declare const Players: Players;
-// export declare const PolicyService: PolicyService; This has not yet been announced for public use
 export declare const ReplicatedFirst: ReplicatedFirst;
 export declare const ReplicatedStorage: ReplicatedStorage;
 export declare const RunService: RunService;

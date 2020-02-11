@@ -1,3 +1,4 @@
+export declare const AnalyticsService: AnalyticsService;
 export declare const AssetService: AssetService;
 export declare const BadgeService: BadgeService;
 export declare const Chat: Chat;

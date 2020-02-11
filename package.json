@@ -8,10 +8,10 @@
 	"author": "",
 	"license": "ISC",
 	"peerDependencies": {
-		"@rbxts/types": "^1.0.40"
+		"@rbxts/types": "^1.0.334"
 	},
 	"devDependencies": {
-		"@rbxts/types": "^1.0.130"
+		"@rbxts/types": "^1.0.334"
 	},
 	"files": [
 		"init.lua",

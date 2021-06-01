@@ -42,5 +42,6 @@ export declare const TeleportService: TeleportService;
 export declare const TextService: TextService;
 export declare const TweenService: TweenService;
 export declare const UserInputService: UserInputService;
+export declare const UserService: UserService;
 export declare const VRService: VRService;
 export declare const Workspace: Workspace;

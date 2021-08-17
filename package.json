@@ -8,7 +8,8 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"@rbxts/types": "^1.0.491"
+		"@rbxts/compiler-types": "^1.2.3-types.0",
+		"@rbxts/types": "^1.0.518"
 	},
 	"files": [
 		"init.lua",

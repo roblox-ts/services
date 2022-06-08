@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/services",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "",
 	"main": "init.lua",
 	"typings": "index.d.ts",

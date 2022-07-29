@@ -17,6 +17,7 @@ export declare const HapticService: HapticService;
 export declare const HttpService: HttpService;
 export declare const InsertService: InsertService;
 export declare const JointsService: JointsService;
+export declare const KeyframeSequenceProvider: KeyframeSequenceProvider
 export declare const Lighting: Lighting;
 export declare const LocalizationService: LocalizationService;
 export declare const LogService: LogService;

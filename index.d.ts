@@ -1,4 +1,5 @@
 export declare const AnalyticsService: AnalyticsService;
+export declare const AnimationClipProvider: AnimationClipProvider;
 export declare const AssetService: AssetService;
 export declare const AvatarEditorService: AvatarEditorService;
 export declare const BadgeService: BadgeService;

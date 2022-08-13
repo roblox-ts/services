@@ -13,6 +13,7 @@
 	},
 	"files": [
 		"init.lua",
-		"index.d.ts"
+		"index.d.ts",
+		"plugin.d.ts"
 	]
 }

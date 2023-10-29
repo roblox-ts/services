@@ -29,6 +29,7 @@ export declare const MessagingService: MessagingService;
 export declare const PathfindingService: PathfindingService;
 export declare const PhysicsService: PhysicsService;
 export declare const Players: Players;
+export declare const Player: Player;
 export declare const PolicyService: PolicyService;
 export declare const ProximityPromptService: ProximityPromptService;
 export declare const ReplicatedFirst: ReplicatedFirst;

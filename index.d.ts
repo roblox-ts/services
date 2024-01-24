@@ -37,6 +37,7 @@ export declare const RunService: RunService;
 export declare const ScriptContext: ScriptContext;
 export declare const ServerScriptService: ServerScriptService;
 export declare const ServerStorage: ServerStorage;
+export declare const SharedTableRegistry: SharedTableRegistry;
 export declare const SocialService: SocialService;
 export declare const SoundService: SoundService;
 export declare const StarterGui: StarterGui;

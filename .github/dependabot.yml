@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    versioning-strategy: increase
+    open-pull-requests-limit: 99
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      packages:
+        patterns:
+          - "*"

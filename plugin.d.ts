@@ -17,6 +17,7 @@ declare module "@rbxts/services" {
 	export const PluginGuiService: PluginGuiService;
 	export const RenderSettings: RenderSettings;
 	export const RobloxPluginGuiService: RobloxPluginGuiService;
+	export const ScriptEditorService: ScriptEditorService;
 	export const Selection: Selection;
 	export const Studio: Studio;
 	export const StudioData: StudioData;

@@ -3,6 +3,7 @@ export declare const AnimationClipProvider: AnimationClipProvider;
 export declare const AssetService: AssetService;
 export declare const AvatarEditorService: AvatarEditorService;
 export declare const BadgeService: BadgeService;
+export declare const CaptureService: CaptureService;
 export declare const Chat: Chat;
 export declare const CollectionService: CollectionService;
 export declare const ContentProvider: ContentProvider;

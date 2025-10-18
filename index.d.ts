@@ -6,6 +6,7 @@ export declare const BadgeService: BadgeService;
 export declare const CaptureService: CaptureService;
 export declare const Chat: Chat;
 export declare const CollectionService: CollectionService;
+export declare const ConfigService: ConfigService;
 export declare const ContentProvider: ContentProvider;
 export declare const ContextActionService: ContextActionService;
 export declare const ControllerService: ControllerService;

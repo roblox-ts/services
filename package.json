@@ -9,7 +9,7 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@rbxts/compiler-types": "^3.0.0-types.0",
-		"@rbxts/types": "^1.0.855"
+		"@rbxts/types": "^1.0.886"
 	},
 	"files": [
 		"init.lua",

@@ -23,6 +23,5 @@ declare module "@rbxts/services" {
 	export const StudioData: StudioData;
 	export const StudioService: StudioService;
 	export const TaskScheduler: TaskScheduler;
-	export const TestService: TestService;
 	export const VersionControlService: VersionControlService;
 }

@@ -50,6 +50,7 @@ export declare const StarterPlayer: StarterPlayer;
 export declare const Stats: Stats;
 export declare const Teams: Teams;
 export declare const TeleportService: TeleportService;
+export declare const TestService: TestService;
 export declare const TextChatService: TextChatService;
 export declare const TextService: TextService;
 export declare const TweenService: TweenService;

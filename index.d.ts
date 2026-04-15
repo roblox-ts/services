@@ -13,6 +13,7 @@ export declare const ContextActionService: ContextActionService;
 export declare const ControllerService: ControllerService;
 export declare const DataStoreService: DataStoreService;
 export declare const Debris: Debris;
+export declare const EncodingService:EncodingService;
 export declare const ExperienceNotificationService: ExperienceNotificationService;
 export declare const GamepadService: GamepadService;
 export declare const GamePassService: GamePassService;

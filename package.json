@@ -11,6 +11,9 @@
 		"@rbxts/compiler-types": "^3.0.0-types.0",
 		"@rbxts/types": "^1.0.855"
 	},
+	"peerDependencies": {
+		"@rbxts/types": "*"
+	},
 	"files": [
 		"init.lua",
 		"index.d.ts",
